@@ -40,7 +40,7 @@ Now that you have set up your MongoDB instance, you will need to connect to your
 instance via Python. Please use the sample code in the following file to assist
 you in connecting to your MongoDB instance:
 
-1.  ./scripts/connect-to-mongo.py	
+    ```./scripts/connect-to-mongo.py```	
 
 Once you have read through some of the documentation and connected to your
 database, please answer the following questions and follow the instructions in
@@ -50,11 +50,9 @@ finishing your assignment.
     function, printing the results and adding them to your response for this
     question
 
-    -   db = client.sample_airbnb
-
-    -   serverStatusResult=db.command("serverStatus")
-
-    -   print(serverStatusResult)
+    ```db = client.sample_airbnb 
+    serverStatusResult=db.command("serverStatus")
+    print(serverStatusResult)```
 
 -   Now briefly profile the dataset. Provide a response to the following:
 
@@ -64,7 +62,7 @@ finishing your assignment.
 
     -   What is the size of the database?
 
--   2.2.0.3 Now run queries to answer the following:
+-   Now run queries to answer the following:
 
     -   How many listings were reviewed on 2016-01-31 in the listingsAndReviews
         collection?
